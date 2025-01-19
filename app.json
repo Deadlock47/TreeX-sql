@@ -1,32 +1,43 @@
 {
   "expo": {
-    "scheme": "acme",
-    "plugins": [
-      "expo-router",
-      "expo-sqlite",
-      "expo-video",
-      "expo-font"
-    ],
     "name": "TreeX",
     "slug": "TreeX",
-    "userInterfaceStyle": "automatic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.deadlock0001.TreeX",
-      "runtimeVersion": "1.0.0"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.deadlock0001.typer2",
+      "versionCode": 5
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "14125664-7258-4335-939f-dc73cd022598"
+        "projectId": "fc1c0024-9fb8-4d80-9d81-715ece3a7e78"
       }
     },
-    "updates": {
-      "url": "https://u.expo.dev/14125664-7258-4335-939f-dc73cd022598"
+    "runtimeVersion": {
+      "policy": "appVersion"
     },
-    "ios": {
-      "runtimeVersion": {
-        "policy": "appVersion"
-      },
-      "bundleIdentifier": "com.deadlock0001.TreeX"
+    "updates": {
+      "url": "https://u.expo.dev/fc1c0024-9fb8-4d80-9d81-715ece3a7e78"
     }
   }
 }
